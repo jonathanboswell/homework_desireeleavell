@@ -1,36 +1,155 @@
-<style>
 
- body {
-      text-align: center;
-      background-image: url('./giphy.gif');
+	{
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #FFFFFF;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
-	  font-family: helvetica, sans-serif;
-  	  margin: 0 auto;
-  	  text-align:justify;
-}
-	h1{
-		font-size: 10px;
-		text-align: left;
-}
-	h2{
-	font-size: 25px;
-	text-align:center;
-
-}
-	h3{
-	font-size: 15px;
-	text-align: center;
+      background-color: #121212
 }
 
-	#logo{
-		display: block; 
-		margin:0 auto;
-		left;
-		width: 15%
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
 }
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+*Classes
+/*******************************************/
+.Extrabold{
+font-style: bold;
+font-size: 24px;
+font-weight: 900;
+
+}
+
+.Semibold{
+font-style: bold;
+font-size: 24px;
+font-weight:600;
+
+}
+
+.Light{
+font-size: 13px;
+font-weight:100;
+}
+
+.LightI{
+font-style: italic;
+font-size: 13px;
+font-weight:100;
+
+}
+/******************************************
+*IDs
+/*******************************************/
+#Get{
+font-style: bold;
+font-size: 14px;
+border-radius: 5px;
+
+}
+#Benefits{
+font-size: 20px;
+
+}
+#Amanda{
+font-size: 18px;
+}
+
+#Sign{
+font-size: 12px;
+border-radius: 5px;
+}
+
+#Relax{
+font-size: 18px;
+}
+#Copy{
+font-size: 9px;
+
+}
+/******************************************
+*ID- Pages
+/*******************************************/
+#Page1{
+	background-image: url(header_bg.jpg);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Page2{
+
+	background-color: #f0efef;
+	font-color: #121212;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Page3{
+	background-image:  url(testimonial_bg.jpg);
 	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
-</style>
 
 
