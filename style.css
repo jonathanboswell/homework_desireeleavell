@@ -47,26 +47,28 @@ Developer @GA in NYC
 header{
 
 }
-h2{
-font-size: 40px;
-font-family: bold;
-font-weight:600;
+
+h2 {
+  font-size: 40px;
+  font-family: bold;
+  font-weight:600;
 }
+
 h3{
-font-size: 40px;
-font-family: bold;
-font-weight:600;
+  font-size: 40px;
+  font-family: bold;
+  font-weight:600;
 }
 
 
 body {
-     background-color: #f0efef;
-     color: #033048;
-     font-size: 24px;
-     line-height: 1.4;
-     font-weight: 100;
-     font-family: Helvetica, Arial, sans-serif;
-     height: 100%;
+  background-color: #f0efef;
+  color: #033048;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 100;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
 }
 
 /******************************************
@@ -74,26 +76,24 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  
+#container { 
   width: 50%;
   margin: auto;
   height: 100%;
   position:relative;
 }
-li{
+
+li {
   color: #f9e42e;
   padding-right: 40px;
   text-decoration: none;
   transition: 0.3s;
   font-size: 24px;
-  float: left;
+  display: inline-block;
   text-align:left;
-  display: block;
 }
 
 ul{
-  float:right;
   margin-right: 94px;
   display: block;
 }
@@ -104,73 +104,75 @@ header {
 }
 
 footer {
-   position: absolute;
+  clear: both;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: #efefef;
   text-align: center; /* Height of the footer */
+  border: 1px solid green;
 }
 
-h2{
-  padding-top: 100px;
-}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/*
 #Article1{
-
-width: 700px;
-height: 873px;
-right:105px;
-padding-bottom: 400px;
-  
+  width: 700px;
+  height: 873px;
+  right:105px;
 }
 
 #Article2{
-width: 700px;
-height:880px;
-right:105px;
-padding-bottom: 400px;
-}
-#Callto{
-
-}
-#AboutRelaxer{
-
-}
-#Adunit{
-
+  width: 700px;
+  height:880px;
+  right:105px;
+  padding-bottom: 400px;
 }
 
-#Content{
-float:left;
+#Callto{}
+#AboutRelaxer{}
+#Adunit{}
+
+*/
+header {
+  border: 1px solid orange;
+  height: 100px;
+  clear: both;
 }
+header h1 {
+  border: 1px solid purple;
+  float: left;
+  margin-top: 0;
+}
+nav {
+  border: 1px solid green;
+  float: right;
+}
+#container {
+  clear: both;
+  float:left;
+  border: 1px solid red;
+  width: 70%;
+}
+
 #Navigationbar{
-font-family: bold;
-font-weight: 600;
-position:absolute;
-left:0; right:0
-height: 92px;
-background-color: #033048;
+  float: right;
+  font-family: bold;
+  font-weight: 600;
+  left:0; right:0
+  height: 92px;
+  background-color: #033048;
   color: #f9e42e;
 }
 #Sidebar{
-position:absolute;
-top: 191px;
-bottom: 0;
-right: 0;
-width: 240px;
+  border: 1px solid blue;
+  float: left;
+  width: 240px;
 }
-#Footer{
-position: absolute;
-bottom:0;
-}
-
 
 .Read{
-width: 674px;
-height:73px;
-
+  width: 674px;
+  height:73px;
 }
