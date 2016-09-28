@@ -167,8 +167,10 @@ nav {
   color: #f9e42e;
 }
 #Sidebar{
-  border: 1px solid blue;
-  float: left;
+  position:absolute;
+  top: 191px;
+  bottom: 0;
+  right: 0;
   width: 240px;
 }
 
