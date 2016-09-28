@@ -1,5 +1,17 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
 
-	{
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
@@ -32,18 +44,30 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+header{
 
-body {
-     color: #FFFFFF;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: 'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-      background-color: #121212
+}
+h2{
+font-size: 40px;
+font-family: bold;
+font-weight:600;
+}
+h3{
+font-size: 40px;
+font-family: bold;
+font-weight:600;
 }
 
 
+body {
+     background-color: #f0efef;
+     color: #033048;
+     font-size: 24px;
+     line-height: 1.4;
+     font-weight: 100;
+     font-family: Helvetica, Arial, sans-serif;
+     height: 100%;
+}
 
 /******************************************
 /* LAYOUT
@@ -51,105 +75,102 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
+  
+  width: 50%;
   margin: auto;
-  height: 500px;
-
+  height: 100%;
+  position:relative;
 }
+li{
+  color: #f9e42e;
+  padding-right: 40px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 24px;
+  float: left;
+  text-align:left;
+  display: block;
+}
+
+ul{
+  float:right;
+  margin-right: 94px;
+  display: block;
+}
+
 
 header {
 
 }
 
 footer {
-
+   position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center; /* Height of the footer */
 }
 
+h2{
+  padding-top: 100px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-/******************************************
-*Classes
-/*******************************************/
-.Extrabold{
-font-style: bold;
-font-size: 24px;
-font-weight: 900;
+#Article1{
+
+width: 700px;
+height: 873px;
+right:105px;
+padding-bottom: 400px;
+  
+}
+
+#Article2{
+width: 700px;
+height:880px;
+right:105px;
+padding-bottom: 400px;
+}
+#Callto{
+
+}
+#AboutRelaxer{
+
+}
+#Adunit{
 
 }
 
-.Semibold{
-font-style: bold;
-font-size: 24px;
-font-weight:600;
-
+#Content{
+float:left;
 }
-
-.Light{
-font-size: 13px;
-font-weight:100;
+#Navigationbar{
+font-family: bold;
+font-weight: 600;
+position:absolute;
+left:0; right:0
+height: 92px;
+background-color: #033048;
+  color: #f9e42e;
 }
-
-.LightI{
-font-style: italic;
-font-size: 13px;
-font-weight:100;
-
+#Sidebar{
+position:absolute;
+top: 191px;
+bottom: 0;
+right: 0;
+width: 240px;
 }
-/******************************************
-*IDs
-/*******************************************/
-#Get{
-font-style: bold;
-font-size: 14px;
-border-radius: 5px;
-
-}
-#Benefits{
-font-size: 20px;
-
-}
-#Amanda{
-font-size: 18px;
-}
-
-#Sign{
-font-size: 12px;
-border-radius: 5px;
-}
-
-#Relax{
-font-size: 18px;
-}
-#Copy{
-font-size: 9px;
-
-}
-/******************************************
-*ID- Pages
-/*******************************************/
-#Page1{
-	background-image: url(header_bg.jpg);
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-#Page2{
-
-	background-color: #f0efef;
-	font-color: #121212;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-#Page3{
-	background-image:  url(testimonial_bg.jpg);
-	
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#Footer{
+position: absolute;
+bottom:0;
 }
 
 
+.Read{
+width: 674px;
+height:73px;
 
-
+}
