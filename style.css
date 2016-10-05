@@ -1,4 +1,3 @@
-
 /*
 Project Name: Blank Template
 Client: Your Client
@@ -13,19 +12,19 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -46,239 +45,254 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-h2 {
-  font-size: 40px;
-  font-family: bold;
-  font-weight:600;
-  
-  float: left;
+body {
+  color: #043049;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: #f0efef;
 }
-h3{
-font-size: 40px;
-  font-family: bold;
-  font-weight:600;
- /* border: 1px solid purple;*/
-  float: left;
-}
-h6 a{
+a {
   text-decoration: none;
 }
-h6 a:hover{color:white;}
-p:first-letter{
-  font-size: 70px;
-  font-weight: 600;
-  font-family: bold;
-}
 
-
-body {
-  background-color: #f0efef;
-  color: #033048;
-  font-size: 24px;
-  line-height: 1.4;
-  font-weight: 100;
-  font-family: 'Open Sans',  Helvetica, Arial, sans-serif;
-  height: 100%;
-}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container { 
-  width: 50%;
-  margin: auto;
-  height: 100%;
-  position:relative;
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
-nav li {
-  color: #f9e42e;
-  padding-right: 40px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 24px;
-  display: inline-block;
-  text-align:left;
+.logo {
+  font-size: 48px;
+  font-weight: 800;
 }
-nav li a{
-  color: #f9e42e;
-  font-family: bold;
-  font-weight: 600;
-  background-color: #033048;
-  text-decoration: none;
-
-}
-nav li a:hover{color:white;}
-
-ul{
-  margin-right: 94px;
-  display: block;
-}
-
 
 header {
-
+  background: #033048;
+  padding: 25px 0;
+  overflow: hidden;
 }
-
-footer {
-  clear: both;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #033048;
-  text-align: center; /* Height of the footer */
-  /*border: 1px solid green;*/
-}
-
-footer a{
-  display: inline-block;
-  list-style: none;
-  margin: 0 26px 75px;
-
-}
-footer p {
-font-size: 18px;
-color:#fff;
-font-weight: 600;
-}
-footer h5{
-color: #f9e42e;
-font-family: bold;
-font-weight: 900;
-padding-top: 25px;
-padding-bottom: 50px;
-
-}
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-/*
-#Article1{
-  width: 700px;
-  height: 873px;
-  right:105px;
-}
-#Article2{
-  width: 700px;
-  height:880px;
-  right:105px;
-  padding-bottom: 400px;
-}
-#Callto{}
-#AboutRelaxer{}
-#Adunit{}
-*/
-header {
-/*border: 1px solid orange;*/
-  height: 100px;
-  clear: both;
-  background-color: #033048;
-}
-header h1 {
-  /*border: 1px solid purple;*/
+header .logo {
+  color: #fff;
   float: left;
-  margin-top: 0;
-  font-size: 40px;
-  font-family: bold;
-  font-weight:600;
-  padding-left: 90px;
-  padding-top: 25px;
-  color:#FFFFFF; 
 }
-nav {
-/*border: 1px solid green;*/
+
+header nav {
   float: right;
-  padding-top: 30px;
-  
+  margin-top: 15px;
 }
-#container {
-  clear: both;
-  float:left;
-  /*border: 1px solid red;*/
-  width: 70%;
-  padding-left: 50px;
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+}
+header nav ul li a {
+  color: #f9e42e;
 }
 
-#Sidebar{
-  position:absolute;
-  top: 130px;
-  bottom: 0;
-  right: 130px;
-  width: 240px;
+#promo {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  height: 600px;
+  width: 100%;
+  color: white;
+  margin: 0 auto 0;
+  background-color: #121212;
 }
-#Sidebar li a{
-  display: block;
-  text-decoration:none;
-}
-#Sidebar li a:hover{color:white;}
-
-#Sidebar ol{
-  padding-bottom: 50px;
-}
-#Sidebar h4{
-  font-size: 32px;
-  font-family: bold;
-  font-weight:900;
-}
-#Sidebar h5{
-  font-size:32px;
-  font-family: bold;
-  font-weight: 900;
-}
-#Sidebar p{
-  font-size: 22px;
-  font-weight:100;
-}
-#Sidebar h6{
-  font-family: bold;
-  font-size: 22px;
+#promo .container {
+  font-size: 48px;
   font-weight: 600;
-  padding-bottom: 25px;
+  padding: 120px 0 90px;
+  margin: 0 auto;
+  text-align: center;
+}
+#promo h2 {
+  padding: 0 0 45px;
+}
 
+#main {
+  margin-top: 80px;
 }
-.signup{
- border:1px solid yellow;
-  margin-top: -16px;
-  margin-left: -16px;
-  margin-right: -16px;
-  padding-bottom: 25px;
-  background-color: #f9e42e;
+#posts {
+  float: left;
+  width: 700px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
 }
-.button{
- border-radius: 5px;
+#sidebar {
+  float: right;
+  width: 240px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#benefits {
+  background-color: #f0efef;
+}
+
+#benefits h3 {
+  font-weight: 600;
+  color: #033048;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#benefits p, ul {
+  font-size: 24px;
+  color: #606161;
+}
+
+ul {
+  list-style: disc;
+  padding: 20px 60px;
+}
+
+#testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
+  background-size: cover;
+}
+
+#testimonial p, #testimonial h3 {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#testimonial h3 {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+
+#signup {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.post {
+  border-bottom: 1px solid #043049;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+h2 a {
+  color: #043049;
+}
+
+.post img {
+  margin-bottom: 30px;
+}
+.post p {
+  font-size: 24px;
+  line-height: 1.333;
+  color: #606161;
+}
+.post p:first-of-type:first-letter {
+  float: left;
+  font-size: 80px;
+  line-height: 65px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+.readmore {
+  text-align: right;
+  margin-top: 30px;
+}
+.readmore a {
+  color: #043049;
+  font-weight: 600;
+}
+
+.button {
+  border-radius: 5px;
   font-weight: 800;
   padding: 12px 0;
   width: 280px;
   font-size: 28px;
   text-align: center;
   display: block;
-  margin: 25px auto;
-  text-decoration: none;
+  margin: 0 auto;
+}
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+.blue {
   background: #033048;
   color: #fff;
-}
-.button:hover{background-color:red;}
-
-
-.Read a{
-  width: 674px;
-  height:73px;
   font-size: 24px;
-  font-family: bold;
+}
+
+#sidebar h3 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #043049;
+}
+#sidebar ul {
+  margin-bottom: 40px;
+}
+#sidebar ul li a {
+  color: #043049;
+  font-size: 24px;
+}
+#sidebar p {
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+#sidebar p a {
+  color: #043049;
   font-weight: 600;
-  text-align: right;
-  padding-right: 15px;
-  float:right;
-  text-decoration: none;
-
 }
-.Read a:hover{color:white;}
 
-.gutter{
-  grid-template-columns: 20px;
-  grid-template-rows:20px;
-
+#signup {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
 }
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
