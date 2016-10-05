@@ -18,10 +18,9 @@ $(function(){
       $( "#dialog" ).dialog( "open" );
     });
 
-    $("readmore").click(function(){
-        $("result").hide();
-    });
-    $("readmore").click(function(){
-        $("result").show();
+    $(".result").hide();
+    $(".readmore").click(function(e){
+        e.preventDefault();
+        $(".result").show();
     });
 });
