@@ -222,7 +222,45 @@ h2 a {
 .readmore a {
   color: #043049;
   font-weight: 600;
+  text-align: right;
+  margin-top: 30px;
+
 }
+a.readmore{
+  color: #043049;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 30px;
+  padding-left: 530px;
+}
+.read-less{
+  display: none;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 30px;
+  padding-left: 530px;
+}
+a.readmoret{
+  color: #043049;
+  font-weight: 600;
+  text-align: right;
+   margin-top: 30px;
+  padding-left: 530px;
+  
+ 
+}
+.read-lesst{
+  display: none;
+  font-weight: 600;
+  text-align: right; 
+  margin-top: 30px;
+  padding-left: 530px;
+
+
+}
+ 
+ 
+
 
 .button {
   border-radius: 5px;
@@ -265,6 +303,13 @@ h2 a {
 #sidebar p a {
   color: #043049;
   font-weight: 600;
+
+}
+.read-lessw{
+  display: none;
+  font-weight: 600;
+
+
 }
 
 #signup {
