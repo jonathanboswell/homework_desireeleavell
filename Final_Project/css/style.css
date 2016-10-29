@@ -1,5 +1,25 @@
-body {
-  font-family: sans-serif;
-  margin: 3em;
-  padding: 0;
+#container{
+width:100%;
+
+}
+
+header{
+	border: 1px solid red;
+	padding: 150px;
+	background-image: url("./kazoo.jpg");
+
+}
+
+caption{
+
+	color:red;
+	padding: 150px;
+}
+#images{
+
+	border:1px solid green;
+}
+footer{
+	border: 1px solid yellow;
+
 }
